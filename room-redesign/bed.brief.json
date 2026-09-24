@@ -1,0 +1,64 @@
+{
+ "schema_version": "banana.visual-brief.v1",
+ "goal": "Realistic, modest interior-designer refresh of the user's own bedroom, shown from the same photo view, achievable with new textiles, lighting, decluttering and small decor only.",
+ "facts": [
+  "The room is a teenage bedroom with dark cherry wood furniture, blush walls and parquet floor."
+ ],
+ "locks": [
+  "Same room, same camera position, framing and perspective as the reference photo.",
+  "Keep the room architecture: walls, window, doors, closet, ceiling height and parquet floor.",
+  "Keep the existing dark cherry wood furniture in place and unchanged in shape: sleigh bed, nightstands, dresser with carved mirror.",
+  "Keep the blush-pink wall colour and the pink-and-silver glam style."
+ ],
+ "freedoms": [
+  "Bedding, pillows, rugs, lamps, small decor, art framing and arrangement, curtains and the ceiling light fixture may change."
+ ],
+ "direction": {
+  "mode": "creative",
+  "thesis": "Soft, pulled-together glam: the same room, just edited and styled.",
+  "signature": "Warm lamp light and one large cream rug tying the cherry furniture together.",
+  "avoid": "A showroom makeover with new furniture, new paint, or a different room layout."
+ },
+ "composition": [
+  "Same viewpoint and crop as the reference photo."
+ ],
+ "rendering": [
+  "Photorealistic smartphone interior photo, natural daylight from the window plus warm lamp light, true-to-life materials."
+ ],
+ "typography": {
+  "exact_copy": [],
+  "instructions": [
+   "Do not add new text; keep existing signs as they are."
+  ]
+ },
+ "references": [
+  {
+   "disclosure_alias": "bed wall photo",
+   "role": "object",
+   "purpose": "preserve room geometry, furniture and camera view",
+   "subject_id": "bedroom",
+   "authority": {
+    "rights_or_license": "affirmed",
+    "identity_or_likeness": "not_applicable",
+    "customer_or_private_asset": "affirmed",
+    "endorsement_or_representation": "not_applicable",
+    "provider_transmission": "affirmed",
+    "intended_use": "Private interior redesign mockup of the user's own bedroom for personal use."
+   }
+  }
+ ],
+ "output": {
+  "aspect_ratio": "9:16",
+  "image_size": "1K",
+  "mime_type": "image/jpeg",
+  "delivery_notes": [
+   "Viewable on a phone screen."
+  ]
+ },
+ "review_tests": [
+  "Bed, nightstands, star and window stay where they are in the original.",
+  "Floor clutter, cables and loose bag are gone.",
+  "A single large cream rug and two matching lamps are visible.",
+  "Result looks like a real photo of the same room, not a render of a new room."
+ ]
+}
